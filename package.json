@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "tslint --project '.'"
+    "lint": "tslint --project tsconfig.json --config tslint.json"
   },
   "jest": {
     "transform": {
@@ -36,10 +36,11 @@
   },
   "homepage": "https://github.com/intojs/mocking-in-typescript#readme",
   "dependencies": {
-    "@types/jest": "^21.1.8",
-    "jest": "^21.2.1",
-    "ts-jest": "^21.2.4",
-    "tslint": "^5.8.0",
-    "typescript": "^2.6.2"
+    "@types/jest": "21.1.8",
+    "jest": "21.2.1",
+    "ts-jest": "21.2.4",
+    "ts-node": "^3.3.0",
+    "tslint": "5.8.0",
+    "typescript": "^2.4.2"
   }
 }

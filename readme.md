@@ -12,8 +12,8 @@ These are very stripped out versions of the Product and Price interfaces. In rea
 
 I have implemented the tests with Jest, Mocha and of course TypeScript.
 
-Wohhhh, over 60 line of test code for 14 lines of actual implementation! 
+Wohhhh, over 60 line of test code for 14 lines of actual implementation, it hurts my pretty, little soul!
 
-This hurts my pretty little soul!
+Here comes the mocking!
 
-Here comes the mocking.
+As you can see, the tests which use these mock methods are terse and less than half the size of the ones who don't.
