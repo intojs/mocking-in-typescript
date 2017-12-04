@@ -1,0 +1,45 @@
+{
+  "name": "mocking-in-typescript",
+  "version": "1.0.0",
+  "description": "Mocking in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint --project '.'"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intojs/mocking-in-typescript.git"
+  },
+  "keywords": [
+    "mocking",
+    "typescript",
+    "mocha"
+  ],
+  "author": "Daniel Dughila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intojs/mocking-in-typescript/issues"
+  },
+  "homepage": "https://github.com/intojs/mocking-in-typescript#readme",
+  "dependencies": {
+    "@types/jest": "^21.1.8",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.4",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
